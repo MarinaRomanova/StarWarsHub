@@ -1,0 +1,31 @@
+
+<form [formGroup]="form"  class="myForm">
+      <div class="form-group">
+      <label for="title">Title</label>
+      <input type="text" class="form-control" formControlName="title" [(ngModel)]="data.title"  required>
+    </div>
+    <div class="form-group">
+        <label for="director">Director</label>
+        <input type="text" class="form-control" formControlName="director" [(ngModel)]="data.director"  required>
+      </div>
+      <div class="form-group">
+          <label for="image">Image</label>
+          <!-- <select name="image" [(ngModel)] = "images">
+            <option *ngFor="let x of images" [ngValue]="x"></option>
+          </select> -->
+          <input type="text" class="form-control" formControlName="image" [(ngModel)]="data.image" >
+      </div>
+      <div class="form-group">
+          <label for="opening_crawl">Opening Crawl</label>
+          <input type="text" class="form-control" formControlName="opening_crawl" [(ngModel)]="data.opening_crawl"  required>
+      </div>
+      <div class="form-group">
+          <label for="release_date">Release Date</label>
+          <input type="date" class="form-control" formControlName="release_date" [(ngModel)]="data.release_date" >
+      </div>
+     
+    <div>
+        <button type="submit" class="btn btn-primary" [mat-dialog-close]="data" [disabled]="!form.valid">Add</button>
+    </div>
+  
+  </form>

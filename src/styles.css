@@ -1,0 +1,30 @@
+
+  nav img {
+    height:50px; 
+    margin:5px;
+  }
+
+  nav .logo {
+    color:  #ffaa00
+
+  }
+
+  nav {
+    background: #1a1a00
+  }
+  nav ul li {
+    margin-right: 10px;
+  }
+
+ body {
+  background: #2b2a2a;  
+  background-image: url("src\assets\logo.png");
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  background-attachment: fixed;
+  background-size: 250px;
+ }
+
+ .toast {
+  background-color: #ffaa00;
+}

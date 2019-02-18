@@ -1,0 +1,11 @@
+.row .col.s6{
+    width: 60%;
+}
+
+.row .col.offset-s3 {
+margin-left: 20%;
+}
+ .card .card-image .card-title{
+    color: #ffab40;
+    text-shadow: 1px 1px rgb(253, 253, 253);
+} 

@@ -1,0 +1,85 @@
+.collection .collection-item {
+    
+    background-color: #f2f2f2;    
+}
+.collection {
+    margin-top: 0.5rem;
+    margin-right: 5%;
+    margin-bottom: 1rem;
+    
+    float: right;
+    width: 50%
+}
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  input[type=submit] {
+    width: 100%;
+    background-color: #ffaa00;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #ffaa00;
+  }
+  
+  div {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    margin-top: 30px;
+  }
+
+  span {
+    font-size: 10px;
+  }
+
+  table {
+    width:80%;
+    background-color: #f2f2f2;
+    margin-left: 10%;
+    margin-top: 20px; 
+    margin-top: 120px;
+    border-radius: 20px;
+    
+  }
+  th {    
+    background-color: #ffaa00;
+    color: white;
+    font-size: 18px;
+  }
+
+  .btn{
+    float: right;
+    margin-right: 30px;
+    background-color: #ffaa00;
+    margin-top: 40px;    
+  }
+
+  h4 {
+    color: white;
+    position: absolute;
+    margin-left: 40%;
+  }
+  th, td {
+    border-bottom: 2px solid white;
+    padding: 10px;
+  }
+
+  .link{cursor: pointer;}
+  input {
+    background-color: #f2f2f2;
+  }

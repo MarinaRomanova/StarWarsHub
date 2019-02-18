@@ -1,0 +1,25 @@
+<a class="waves-effect waves-light btn" (click)="openDialog()">
+  <i class="material-icons right" >add_circle_outline</i>Add</a>
+<h4>Admin Board</h4>
+<table class="striped highlight" >
+  <thead>
+    <tr style="text-align: center;"> 
+        <th >Title</th>
+        <th>Director</th> 
+        <th>Opening crawl</th>
+        <th>Image</th>
+        <th>Delete</th>
+    </tr>
+  </thead>
+
+  <tbody *ngFor="let item of filmList">
+    <tr>
+      <td>{{item.title}}</td>
+      <td>{{item.director}}</td>         
+      <td style="white-space: nowrap; text-overflow:ellipsis; overflow: hidden; max-width:500px;">{{item.opening_crawl}}</td>
+      <td><img src="{{item.image}}" alt=""  style="width:100px;border-radius: 6%; "></td>
+      <td class="link" (click) = "delete(item)"><i class="material-icons" style="margin-left:30%;" >delete_forever</i></td>
+    </tr>
+   
+  </tbody>
+</table>
