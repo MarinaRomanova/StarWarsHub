@@ -13,6 +13,16 @@ To set up your database use the following structure:
 
 Don't forget to run `nmp install` to download all libraries.
 
+Set up connection to your firebase in environment.ts inside 
+`firebaseConfig:{
+    apiKey: "",
+    authDomain: "",
+    databaseURL: "",
+    projectId: "",
+    storageBucket: "",
+    messagingSenderId: ""
+    }`
+
 ## Development server
 
 Run `ng serve --open` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
